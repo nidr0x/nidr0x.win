@@ -1,0 +1,7 @@
+User-agent: *
+{{- if and (or hugo.IsProduction (eq site.Params.env "production")) (ne site.Params.robotsNoIndex true) }}
+Disallow:
+{{- else }}
+Disallow: /
+{{- end }}
+Sitemap: {{ "sitemap.xml" | absURL }}
