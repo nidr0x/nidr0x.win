@@ -1,5 +1,5 @@
 baseURL: "https://nidr0x.win/"
-title: "" 
+title: "Carlos Rodríguez | Platform Engineer"
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,9 +13,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: nidr0x
-  description: "My personal website"
-  author: nidr0x
+  title: Carlos Rodríguez
+  description: "Platform engineer focused on developer experience, infrastructure, and reliable delivery."
+  author: Carlos Rodríguez
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -43,26 +43,44 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon.svg"
+    favicon16x16: "favicon.svg"
+    favicon32x32: "favicon.svg"
+    apple_touch_icon: "favicon.svg"
+    safari_pinned_tab: "favicon.svg"
 
   # profile-mode
   profileMode:
     enabled: true
-    title: nidr0x 
-    subtitle: "Platform engineer"
-    #imageUrl: "<img location>"
+    title: Carlos Rodríguez
+    subtitle: "Platform engineer working on infrastructure, developer workflows, and systems that stay operable under real load."
     imageWidth: 120
     imageHeight: 120
-    #imageTitle: my image
+    buttons:
+      - name: Email
+        url: "mailto:nidr0x@gmail.com"
+      - name: GitHub
+        url: "https://github.com/nidr0x"
+      - name: LinkedIn
+        url: "https://linkedin.com/in/carlos-rodriguez-m50b30"
 
   # home-info mode
   homeInfoParams:
-    Title: "nidr0x"
-    Content: Platform engineer 
+    Title: "Carlos Rodríguez"
+    Content: "Platform engineer"
+
+  homeSections:
+    - title: "What I work on"
+      intro: "I care about the parts of software delivery that teams depend on every day."
+      items:
+        - title: "Developer experience"
+          body: "Tooling, workflows, and platform interfaces that reduce friction and make the correct path the easy path."
+        - title: "Infrastructure"
+          body: "Build and runtime systems with an emphasis on operability, predictable changes, and low maintenance overhead."
+        - title: "Delivery"
+          body: "CI/CD, release process design, and the guardrails needed to ship frequently without turning every deploy into a negotiation."
+        - title: "Platform engineering"
+          body: "The connective layer between teams, tooling, and infrastructure: shared capabilities that make delivery more consistent across the organization."
 
   socialIcons:
     - name: instagram

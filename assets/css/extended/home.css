@@ -1,0 +1,86 @@
+.main .profile.profile-custom {
+    min-height: auto;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.profile-custom .profile_inner {
+    gap: 1rem;
+    max-width: 720px;
+}
+
+.profile-custom h1 {
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    letter-spacing: -0.04em;
+    line-height: 0.95;
+}
+
+.profile-custom .profile-subtitle {
+    color: var(--secondary);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin: 0;
+    max-width: 60ch;
+}
+
+.home-sections {
+    display: grid;
+    gap: 2rem;
+    margin: 0 auto 4rem;
+    max-width: 1040px;
+    padding: 0 1rem;
+}
+
+.home-section {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0)),
+        var(--entry);
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) * 1.5);
+    padding: 1.5rem;
+}
+
+.home-section-header {
+    margin-bottom: 1.25rem;
+    max-width: 60ch;
+}
+
+.home-section-header h2 {
+    font-size: 1.35rem;
+    margin-bottom: 0.5rem;
+}
+
+.home-section-header p,
+.home-card p {
+    color: var(--secondary);
+    line-height: 1.7;
+    margin: 0;
+}
+
+.home-section-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.home-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem;
+}
+
+.home-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .main .profile.profile-custom {
+        padding-top: 3rem;
+    }
+
+    .home-sections {
+        padding: 0;
+    }
+}
