@@ -2,6 +2,9 @@ baseURL: "https://nidr0x.win/"
 title: "Carlos Rodríguez | Platform Engineer"
 theme: PaperMod
 
+cascade:
+  robotsNoIndex: true
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -44,9 +47,9 @@ params:
     # disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
     favicon: "favicon.svg"
-    favicon16x16: "favicon.svg"
-    favicon32x32: "favicon.svg"
-    apple_touch_icon: "favicon.svg"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
     safari_pinned_tab: "favicon.svg"
 
   # profile-mode
@@ -54,20 +57,6 @@ params:
     enabled: true
     title: Carlos Rodríguez
     subtitle: "Platform engineer working on infrastructure, developer workflows, and systems that stay operable under real load."
-    imageWidth: 120
-    imageHeight: 120
-    buttons:
-      - name: Email
-        url: "mailto:nidr0x@gmail.com"
-      - name: GitHub
-        url: "https://github.com/nidr0x"
-      - name: LinkedIn
-        url: "https://linkedin.com/in/carlos-rodriguez-m50b30"
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Carlos Rodríguez"
-    Content: "Platform engineer"
 
   homeSections:
     - title: "What I work on"
