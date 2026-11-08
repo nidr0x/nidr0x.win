@@ -1,9 +1,8 @@
 # nidr0x.win
 
-[![Hugo Version](https://img.shields.io/static/v1?label=Hugo&message=%3E=0.125.7&color=blue&logo=hugo)](https://gohugo.io/)
+[![Hugo Version](https://img.shields.io/static/v1?label=Hugo&message=%3E=0.158.0&color=blue&logo=hugo)](https://gohugo.io/)
 [![Theme: PaperMod](https://img.shields.io/badge/Theme-PaperMod-lightgrey)](https://github.com/adityatelange/hugo-PaperMod)
-[![License: MIT](https://img.shields.io/github/license/nidr0x/nidr0x.win)](./LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/nidr0x/nidr0x.win)](https://github.com/nidr0x/nidr0x.win/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/nidr0x/nidr0x.win?branch=master)](https://github.com/nidr0x/nidr0x.win/commits/master)
 
 > **Personal website and blog built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.**
 
@@ -61,6 +60,3 @@ hugo --minify
 ```
 
 ---
-
-## 📄 License
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
